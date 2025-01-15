@@ -117,12 +117,22 @@ WSGI_APPLICATION = 'audition_backend.wsgi.application'
     # }
     
 # }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'ccaaudition2024',
+#         'USER': 'gayatriaudition',
+#         'PASSWORD': 'ccaAuditionGAYATRI2024',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ccaaudition2024',
-        'USER': 'gayatriaudition',
-        'PASSWORD': 'ccaAuditionGAYATRI2024',
+        'NAME': 'audition_backend',
+        'USER': 'audition2025',
+        'PASSWORD': 'edcmerelaudepe',
         'HOST': 'localhost',
         'PORT': '',
     }
